@@ -1,8 +1,20 @@
 # wecx-mint
 
+The idea here is: enable liquidity for a brand new token.
+
+This takes part in three steps:
+
+1. Create **a solana token**, backed by ECX (or whatever new crypto).
+2. Create **a swap server** which exchanges the token 1:1 for real ECX.
+3. Create **a CPMM pool**, such as [Orca](https://www.orca.so/pools/7T4xAj1ENEuPckhWqz6nJP9ZkvDnFpVF7nLbUAvSwm43), such that USD-C can be traded for the solana token. (We recommend the Brave Browser.)
+
+This repo covers only step 1. Another repo cover step 2. Step 3 is pretty easy -- it just requires (for example) the [Brave Browser](https://brave.com/download/) and visiting [Orca](https://www.orca.so/create-pool). 
+
 This repo is a set of Node scripts, not a service. There is no deposit watcher or relayer.
-Minting and burning are manual steps that you do only after checking the matching ECX
-deposit or withdrawal against your reserve.
+
+Minting and burning are manual steps that you do only after checking the matching ECX deposit or withdrawal against your reserve.
+
+
 
 ## What's here
 
