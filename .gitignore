@@ -1,0 +1,9 @@
+node_modules/
+.env
+keys/
+mint-info.json
+mint-info-*.json
+pool-info.json
+lock-info.json
+ledger.jsonl
+backup/
